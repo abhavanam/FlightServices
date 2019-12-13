@@ -1,0 +1,24 @@
+//grid
+th.mat-header-cell {
+    text-align: center;
+    padding: 5px;
+    color: #c0c4cb;
+  }
+  
+
+  .mat-cell{
+    font-size: 12px;
+  }
+  .grid{
+    width:950px;
+    height:500px;
+    text-align: center;
+    background-color: #f8f9fa;
+    tr,td{
+      border:0px;
+    }
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
